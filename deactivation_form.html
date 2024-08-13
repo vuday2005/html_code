@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deactivation form</title>
+    <style>
+      body{
+        text-align: center;
+        background-color: bisque;
+      }
+    </style>
+</head>
+<body>
+  <fieldset>
+    <legend>Deactivation form</legend>
+<form id="deactivation-form">
+    <h2>Deactivate Your LinkedIn Account</h2>
+    <p>Please fill out the form below to deactivate your LinkedIn account.</p>
+    <br>
+    Username:<br>
+    <input type="text" placeholder="Username" required><br><br>
+    Email:<br>
+    <input type="email" placeholder="email id" required><br><br>
+    Reason for Deactivatio:<br>
+    <select id="reason" name="reason">
+      <option value="reason">Select a reason</option>
+      <option value="not-using">I'm no longer using LinkedIn</option>
+      <option value="too-many-emails">I'm receiving more emails</option>
+      <option value="other">Others</option>
+    </select><br><br>
+    Other Reason:<br>
+    <textarea placeholder="other reasons" rows="10" cols="30"></textarea><br><br>
+    Password:<br>
+    <input type="password" placeholder="password" required><br><br>
+    <button type="submit">Deactivate Account</button>
+    </fieldset>
+  </form>
+</body>
+</html>
